@@ -1,0 +1,59 @@
+.header {
+    background: no-repeat center url(../Components/Header/bg.png);
+    background-size: cover;
+    margin-bottom: 270px;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  .btn {
+    width: 206px;
+    height: 48px;
+    background: #1e74ec;
+    color: #eeeff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 19px;
+    transition: 0.2s ease-in-out ;
+  }
+  .btn:hover {
+      box-shadow: inset 0 0 10px #333;
+      cursor: pointer;
+  
+  }
+  .btn__white {
+    color: #1e74ec;
+    background-color: #eeeff1;
+    border: 2px solid #1e74ec;
+  }
+  .info__block {
+      font-size: 26px;
+      line-height: 1.2;
+      color: #35417f;
+      margin: 0px 0px 20px 37px;
+    }
+  .block-center {
+      text-align: center;
+  }
+    .title__block {
+      font-family: "GothamBold", Arial, Helvetica, sans-serif;
+      font-size: 62px;
+      line-height: 1.1;
+      color: #03115f;
+      margin-bottom: 24px;
+    }
+    .text__subtitle {
+      color: #535670;
+      font-size: 20px;
+      font-weight: 400;
+      width: 906px;
+    }
+    .text__subtitle-center {
+      margin: 0px auto;
+    }

@@ -2,11 +2,12 @@ import React from "react";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Navigation from "./Components/Navigation/Nav";
-import "./styles/App.css";
+import "./styles/app.css";
+import './styles/common.modules.css'
 
 function App() {
   return (
-    <div>
+    <>
       <header className="header">
         <div className="container">
           <Navigation />
@@ -18,7 +19,7 @@ function App() {
           <Main />
         </div>
       </main>
-    </div>
+    </>
   );
 }
 
