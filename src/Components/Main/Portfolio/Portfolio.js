@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Portfolio.module.css";
-import one from "./images/one.png";
-import two from "./images/two.png";
-import three from "./images/three.png";
-import four from "./images/four.png";
-import five from "./images/five.png";
-import six from "./images/six.png";
+import mobile from "./images/mobile.png";
+import voice from "./images/voice.png";
+import vroomgames from "./images/vroomgames.png";
+import atol from "./images/atol.png";
+import prorab from "./images/prorab.png";
+import actual from "./images/actual.png";
 
 function Portfolio() {
   return (
@@ -24,32 +24,32 @@ function Portfolio() {
         </section>
         <section className={styles.completed__works}>
           <div className={styles.block__work}>
-            <img src={one} alt="image" />
+            <img src={mobile} alt="image" />
             <h3>Мобильный контроль</h3>
             <p>Сервис для работы с клиентами и партнёрами</p>
           </div>
           <div className={styles.block__work}>
-            <img src={two} alt="image" />
+            <img src={voice} alt="image" />
             <h3>Голосовое управление</h3>
             <p>Сервис для работы по задачам</p>
           </div>
           <div className={styles.block__work}>
-            <img src={three} alt="image" />
+            <img src={vroomgames} alt="image" />
             <h3>Vroomgames</h3>
             <p>Сервис для работы со списками заказов</p>
           </div>
           <div className={styles.block__work}>
-            <img src={four} alt="image" />
+            <img src={atol} alt="image" />
             <h3>ATOL-бонус</h3>
             <p>Мобильное приложения для профессионалов</p>
           </div>
           <div className={styles.block__work}>
-            <img src={five} alt="image" />
+            <img src={prorab} alt="image" />
             <h3>Prorab-x</h3>
             <p>Мобильное приложение для строителей</p>
           </div>
           <div className={styles.block__work}>
-            <img src={six} alt="image" />
+            <img src={actual} alt="image" />
             <h3>Актуаль</h3>
             <p>Сайт промом игры</p>
           </div>

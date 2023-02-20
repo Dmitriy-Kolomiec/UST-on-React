@@ -1,15 +1,15 @@
 
 .about__company {
   min-height: 640px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 453px;
   gap: 33px;
-  height: 640px;
+  /* height: 640px; */
   margin-left: 37px;
   margin-bottom: 175px;
 }
 .img {
-  max-width: 947px;
+  width: 100%;
 }
 .text {
   color: #535670;
@@ -17,8 +17,8 @@
   line-height: 1.2;
 }
 .block__btn {
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+
 /* Второй блок DIRECTIONS */
