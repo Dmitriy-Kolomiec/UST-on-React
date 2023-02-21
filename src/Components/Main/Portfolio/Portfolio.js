@@ -10,7 +10,7 @@ import actual from "./images/actual.png";
 function Portfolio() {
   return (
     <>
-      <h3 className="info__block block-center">Портфолио</h3>
+      <h4 className="info__block block-center">Портфолио</h4>
       <section>
         <section className={styles.portfolio__block}>
           <h2 className="title__block">Завершенные проекты</h2>
@@ -25,32 +25,32 @@ function Portfolio() {
         <section className={styles.completed__works}>
           <div className={styles.block__work}>
             <img src={mobile} alt="image" />
-            <h3>Мобильный контроль</h3>
+            <h5>Мобильный контроль</h5>
             <p>Сервис для работы с клиентами и партнёрами</p>
           </div>
           <div className={styles.block__work}>
             <img src={voice} alt="image" />
-            <h3>Голосовое управление</h3>
+            <h5>Голосовое управление</h5>
             <p>Сервис для работы по задачам</p>
           </div>
           <div className={styles.block__work}>
             <img src={vroomgames} alt="image" />
-            <h3>Vroomgames</h3>
+            <h5>Vroomgames</h5>
             <p>Сервис для работы со списками заказов</p>
           </div>
           <div className={styles.block__work}>
             <img src={atol} alt="image" />
-            <h3>ATOL-бонус</h3>
+            <h5>ATOL-бонус</h5>
             <p>Мобильное приложения для профессионалов</p>
           </div>
           <div className={styles.block__work}>
             <img src={prorab} alt="image" />
-            <h3>Prorab-x</h3>
+            <h5>Prorab-x</h5>
             <p>Мобильное приложение для строителей</p>
           </div>
           <div className={styles.block__work}>
             <img src={actual} alt="image" />
-            <h3>Актуаль</h3>
+            <h5>Актуаль</h5>
             <p>Сайт промом игры</p>
           </div>
         </section>

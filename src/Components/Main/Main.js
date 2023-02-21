@@ -8,12 +8,12 @@ function Main() {
   return (
     <>
       {/* Первый блок: О нас*/}
-      <div>
+      <div className={styles.block}>
         <h3 className="info__block">О нас</h3>
         <section className={styles.about__company}>
           <img src={imgOffice} alt="office" className={styles.img} />
           <div className={styles.info__ust}>
-            <h2 className="title__block">Почему UST?</h2>
+            <h3 className="title__block">Почему UST?</h3>
             <p className={styles.text}>
               К услугам наших клиентов разработка программного обеспечения на
               заказ, проектирование пользовательских интерфейсов, создание

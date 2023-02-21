@@ -1,3 +1,5 @@
+@import './vars.css';
+
 @font-face {
   font-family: "GothamLight";
   src: url("./fonts/GothamLight.woff");

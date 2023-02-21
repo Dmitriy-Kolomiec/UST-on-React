@@ -1,7 +1,6 @@
 .header {
     background: no-repeat center url(../Components/Header/bg.png);
     background-size: cover;
-    margin-bottom: 270px;
   }
   .container {
     max-width: 1440px;
@@ -10,7 +9,7 @@
   .btn {
     width: 206px;
     height: 48px;
-    background: #1e74ec;
+    background: var(--color-primary);
     color: #eeeff1;
     display: flex;
     justify-content: center;
@@ -28,9 +27,9 @@
   
   }
   .btn__white {
-    color: #1e74ec;
+    color: var(--color-primary);
     background-color: #eeeff1;
-    border: 2px solid #1e74ec;
+    border: 2px solid var(--color-primary);
   }
   .info__block {
       font-size: 26px;

@@ -28,12 +28,12 @@
   text-transform: uppercase;
   height: 19px;
   padding-right: 10px;
-  transition: all 0.2s ease-in-out ;
+  transition: all 0.2s ease-in-out;
 }
 .link:nth-child(6) {
-    border: none;
+  border: none;
 }
 .link:hover {
-    color: #1e74ec;
+  color: var(--color-primary);
   text-decoration: underline;
 }

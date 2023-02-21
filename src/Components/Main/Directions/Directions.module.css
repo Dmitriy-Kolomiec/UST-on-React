@@ -1,6 +1,6 @@
 .block__offers {
   margin-left: 37px;
-  margin-bottom: 280px;
+  margin-bottom: 200px;
 }
 .info_offers {
   max-width: 906px;
@@ -11,22 +11,21 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-column-gap: 60px;
-  grid-row-gap: 45px;
   margin-bottom: 28px;
 }
 .direction {
   max-width: 453px;
   min-height: 203px;
 }
-.direction h3 {
-  color: #1e74ec;
+.direction h4 {
+  color: var(--color-primary);
   font-size: 26px;
   line-height: 1.2;
 }
 .link__all__directions {
   display: flex;
   align-items: center;
-  margin-top: 104px;
+  margin-top: 40px;
   color: #a960ab;
   font-size: 14px;
   line-height: 1;
