@@ -8,7 +8,7 @@ import prototypeImg from "./images/prototype.png";
 import designImg from "./images/design.png";
 import arrow from "./images/Arrow_1.png";
 
-function Directions() {
+export const Directions = () => {
   return (
     <>
       <h4 className="info__block">Наши предложения</h4>
@@ -79,5 +79,3 @@ function Directions() {
     </>
   );
 }
-
-export default Directions;

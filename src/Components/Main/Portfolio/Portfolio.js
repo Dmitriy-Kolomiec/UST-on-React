@@ -7,7 +7,7 @@ import atol from "./images/atol.png";
 import prorab from "./images/prorab.png";
 import actual from "./images/actual.png";
 
-function Portfolio() {
+export const Portfolio = () => {
   return (
     <>
       <h4 className="info__block block-center">Портфолио</h4>
@@ -62,5 +62,3 @@ function Portfolio() {
     </>
   );
 }
-
-export default Portfolio;

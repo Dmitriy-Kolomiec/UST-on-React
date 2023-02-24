@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-
-function Header() {
+export const Header = () => {
   return (
     <section className={styles.header__block}>
       <div className={styles.block}>
@@ -19,28 +18,30 @@ function Header() {
       ,
       <div className={styles.block__statistic}>
         <div className={styles.item}>
-          <h4>4+<br></br>
-          <span>Года опыта</span>
+          <h4>
+            4+<br></br>
+            <span>Года опыта</span>
           </h4>
         </div>
         <div className={styles.item}>
-          <h4>30+<br></br>
-          <span>Завершенных проектов</span>
+          <h4>
+            30+<br></br>
+            <span>Завершенных проектов</span>
           </h4>
         </div>
         <div className={styles.item}>
-          <h4>4+<br></br>
-          <span>Года опыта</span>
+          <h4>
+            4+<br></br>
+            <span>Года опыта</span>
           </h4>
         </div>
         <div className={styles.item}>
-          <h4>4+<br></br>
-          <span>Года опыта</span>
+          <h4>
+            4+<br></br>
+            <span>Года опыта</span>
           </h4>
         </div>
       </div>
     </section>
   );
-}
-
-export default Header;
+};
