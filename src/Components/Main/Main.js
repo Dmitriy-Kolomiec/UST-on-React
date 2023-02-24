@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Main.module.css";
 import imgOffice from "./images/about_company.png";
-import {Portfolio} from "./Portfolio/Portfolio";
-import {Directions} from "./Directions/Directions";
+import {Portfolio} from "./Portfolio";
+import {Directions} from "./Directions/index";
 
 export const Main = () => {
   return (
